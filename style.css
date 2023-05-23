@@ -1,0 +1,73 @@
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Add background color and margin - header */
+header {
+  background-color: #fff;
+  margin-bottom: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+/* Style company name and auth buttons */
+header img{
+  width: 20%;
+  height: auto;
+}
+
+.auth-buttons {
+  display: flex;
+}
+
+.auth-buttons a {
+  padding: 5% 20%;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #319fff;
+  border-radius: 10px;
+  margin-left: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.auth-buttons a:hover {
+  background-color: #0025b9;
+}
+
+/* Add background color and padding - main content area */
+main {
+  background-color: #ffffff;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+/* Set max width and center content - main area */
+main > * {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Style footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style links */
+a {
+  color: #66a5dc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
